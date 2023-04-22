@@ -7,7 +7,7 @@ import {
   CoreBindings,
   inject,
 } from '@loopback/core';
-import {CoreComponentBindings} from './keys'
+import {CoreComponentBindings} from './keys';
 import {DEFAULT_CORE_OPTIONS, CoreComponentOptions} from './types';
 
 // Configure the binding for CoreComponent
