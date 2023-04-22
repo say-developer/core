@@ -11,3 +11,9 @@ export interface CoreComponentOptions {
 export const DEFAULT_CORE_OPTIONS: CoreComponentOptions = {
   // Specify the values here
 };
+
+export interface CustomEntityStructure {
+  id: string;
+  createdAt: string;
+  updatedAt: string;
+}
