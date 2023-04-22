@@ -1,14 +1,14 @@
 import {
   Application,
-  injectable,
   Component,
-  config,
   ContextTags,
   CoreBindings,
+  config,
   inject,
+  injectable,
 } from '@loopback/core';
 import {CoreComponentBindings} from './keys';
-import {DEFAULT_CORE_OPTIONS, CoreComponentOptions} from './types';
+import {CoreComponentOptions, DEFAULT_CORE_OPTIONS} from './types';
 
 // Configure the binding for CoreComponent
 @injectable({tags: {[ContextTags.KEY]: CoreComponentBindings.COMPONENT}})
