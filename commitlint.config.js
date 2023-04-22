@@ -4,9 +4,9 @@ module.exports = {
   rules: {
     'header-min-length': [2, 'always', 10],
     'header-max-length': [2, 'always', 72],
-    'header-case': [2, 'always', ['sentence-case']],
-    'type-empty': [2, 'always'],
+    'header-case': [2, 'always', ['lower-case']],
+    'type-empty': [2, 'never'],
     'scope-empty': [2, 'always'],
-    'subject-empty': [2, 'always'],
+    'subject-empty': [2, 'never'],
   },
 };
